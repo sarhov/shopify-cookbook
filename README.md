@@ -8,4 +8,4 @@ A collection of recipes for working with Shopify in teams.
 
 * [Shopify money shop currency formats ](money-format-currency.md)
 
-* [PostCSS plugin for setting variables in Shopify CSS file](postcss0shopify-settings-variables.md)
+* [PostCSS plugin for setting variables in Shopify CSS file](postcss-shopify-settings-variables.md)
