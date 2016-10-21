@@ -14,3 +14,49 @@ Using the new [image size a parameters](https://help.shopify.com/themes/liquid/f
         data-sizes="auto"
         alt="{{ product.title | escape }}">
 ```
+
+
+
+
+
+------------
+Collete - snippets/collecton-carousel.liquid
+
+```liquid
+Option 1 - file_img_url
+
+{% capture images %}{{ collection.metafields.c_f.collection_carousel }}{% endcapture %}
+{% assign imagesArray = images | split : "," %}
+
+{% for item in imagesArray %}
+
+			<img
+			srcset="{{ item | file_img_url: '350x' }} 350w,
+						{{ item | file_img_url: '700x' }} 700w,
+						{{ item | file_img_url: '1050x' }} 1050w,
+						{{ item | file_img_url: '1400x' }}  1400w"
+			sizes="(max-width: 520px) 350px,
+				   (max-width: 875px) 700px,
+				   (max-width: 1200px) 1050px,
+				   (max-width: 1450px) 1400px"
+			src="{{ item | file_img_url: '1400x' }}"
+			alt="{{collection.title}}">
+
+{% endfor %}
+```
+
+```liquid
+Option 2 - img_url 
+<img
+				srcset="{{ collection.image | img_url: '350x' }} 350w,
+ 			   {{ collection.image | img_url: '700x' }} 700w,
+ 			   {{ collection.image | img_url: '1050x' }} 1050w,
+ 			  {{ collection.image | img_url: '1400x' }}  1400w"
+				sizes="(max-width: 520px) 350px,
+				 (max-width: 875px) 700px,
+				 (max-width: 1200px) 1050px,
+			            (max-width: 1450px) 1400px"
+				src="{{ collection.image | img_url: '1400x' }}"
+				alt="{{collection.title}}">
+
+```
