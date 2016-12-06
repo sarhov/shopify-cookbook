@@ -2,9 +2,9 @@
 
 # Redirect Users to a Country-Specific Site using Maxmind
 
-Using the below js format (simplified from maxminds sample here: http://dev.maxmind.com/geoip/geoip2/javascript/tutorial/) to look for the region codes and then redirect to url separately - reasons:
-* GB was region code for the UK code - but wasn't part of the url
-* despite maxminds claim to capture EU as a continent thsi wasn't redirecting - therefore all country codes need to be listed for Europe.
+Using the below js format (simplified from maxminds sample here: http://dev.maxmind.com/geoip/geoip2/javascript/tutorial/) to look for the region codes and then redirect to a specific url separately - reasons:
+* GB was the region code for the UK  - but wasn't part of the url
+* despite maxminds claim to capture EU as a continent this wasn't redirecting - therefore all country codes need to be listed for Europe.
 
 
 ```
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 ```
 
 ### VPN testing:
-The maxmind API uses IP rather than geolocation coordinates so a VPN is needed for tests rather than the chrome dev Sensor tool.
+The maxmind API uses IP rather than geolocation coordinates - so a VPN is needed for tests rather than the chrome dev Sensor tool.
 
 ##### js guides:
 http://dev.maxmind.com/geoip/geoip2/javascript/tutorial/
