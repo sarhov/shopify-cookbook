@@ -12,9 +12,9 @@ Add a **config.yml** file to the root directory of your Shopify Theme folder. An
 
 ```
 development:
-  password: d684290dcb925b27dd6e58ac3914e446
+  password: f684290d3346dfgd45g454dtg414e446
   store: storename.myshopify.com
-  theme_id: 106160196
+  theme_id: 120025691
   bucket_size: 40
   refill_rate: 2
 ```
@@ -35,7 +35,7 @@ Then click **Save app**.
 You will be redirected to the **Private Apps** page.
 
 Copy the **Password** key under the Private App key just created.
-The key will look like e.g. *d684290dcb925b27dd6e58ac3914e446*.
+The key will look like e.g. *f684290d3346dfgd45g454dtg414e446*.
 
 Paste and Replace the **Password** into the **config.yml file** where the file says **password:**.
 
@@ -54,7 +54,7 @@ Navigate to **Online Store > Themes.**
 
 Select the Theme you want to upload and make changes to by selecting the **Three Dots Symbol**, then select **Edit HTML/CSS**.
 
-In the URL there will be a number at the end. This is the theme Id. Copy the Id number. e.g. https://mystore.myshopify.com/admin/themes/150328391. **150328391** will be the theme Id.
+In the URL there will be a number at the end. This is the theme Id. Copy the Id number. e.g. https://mystore.myshopify.com/admin/themes/150328391. **120025691** will be the theme Id.
 
 Copy and paste the theme ID into the **config.yml** file where the file says **theme_id:**.
 
@@ -71,4 +71,4 @@ To start ThemeKit type:
 theme watch
 ```  
 
-Now when you save files you will be uploading the changes to your selected theme. 
+Now when you save files you will be uploading the changes to your selected theme.
