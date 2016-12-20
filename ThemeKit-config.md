@@ -1,3 +1,10 @@
+---
+layout: post
+title: Themekit config
+excerpt: ThemeKit enables you to connect to your Shopify Theme to upload changes made in your code editor.
+---
+{% raw %}
+
 # ThemeKit Config
 
 ThemeKit enables you to connect to your Shopify Theme to upload changes made in your code editor.
@@ -72,3 +79,7 @@ theme watch
 ```  
 
 Now when you save files you will be uploading the changes to your selected theme.
+
+
+
+{% endraw %}

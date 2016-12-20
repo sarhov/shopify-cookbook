@@ -1,3 +1,10 @@
+---
+layout: post
+title: Validate fields checkout
+excerpt: ...
+---
+{% raw %}
+
 <script>
 	Checkout.$('[name="checkout[shipping_address][phone]"]').on("keypress", function(event) {
 	var numbersOnly = /[0-9]/g;
@@ -20,3 +27,7 @@ Checkout.$('[name="checkout[shipping_address][phone]"]').on("keyup", function(ev
 	charLength = Checkout.$(this).val().length;
 });
 </script>
+
+
+
+{% endraw %}

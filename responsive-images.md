@@ -1,3 +1,10 @@
+---
+layout: post
+title: Responsive images
+excerpt: Using the new [image size a parameters](https://help.shopify.com/themes/liquid/filters/url-filters#size-parameters) we can easily serve up responsive images
+---
+{% raw %}
+
 # Lazy load images in liquid
 
 Using the new [image size a parameters](https://help.shopify.com/themes/liquid/filters/url-filters#size-parameters) we can easily serve up responsive images:
@@ -60,3 +67,6 @@ Option 2 - img_url
 				alt="{{collection.title}}">
 
 ```
+
+
+{% endraw %}

@@ -1,3 +1,10 @@
+---
+layout: post
+title: Data tools express capture
+excerpt: The setup instructions on the Data Tools website help you get set up to a point, but there are some considerations for the Shopify Checkout. Please note it is only possible to install Express Capture on a Shopify Plus store.
+---
+{% raw %}
+
 #Data Tools Express Capture instructions
 
 ##Additional setup information for Shopify Checkout.
@@ -17,3 +24,9 @@ The main issue was the State/Territory not populating the correct value. To fix 
 `County` = abbreviated state
 
 `County Name` = Full text state
+
+
+
+
+
+{% endraw %}

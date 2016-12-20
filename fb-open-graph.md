@@ -1,3 +1,10 @@
+---
+layout: post
+title: fb open graph
+excerpt: Add to the `<head>` as an include to populate Open Graph tags
+---
+{% raw %}
+
 # Facebook Open Graph
 
 Add to the `<head>` as an include to populate Open Graph tags
@@ -41,3 +48,6 @@ Add to the `<head>` as an include to populate Open Graph tags
   <meta property="og:url" content="{{ canonical_url }}">
   <meta property="og:site_name" content="{{ shop.name }}">
   ```
+
+
+  {% endraw %}
