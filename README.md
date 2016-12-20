@@ -1,13 +1,41 @@
-# The Shopify Cookbook
+# shopify cookbook
 
-A collection of recipes for working with Shopify in teams.
+> A collection of recipes for working with Shopify in teams.
 
-## Recipes
+## To get started
 
-* [Working with multiple contributors simultaneously](working-with-multiple-contributors-simultaneously.md)
+```sh
+$ gulp [--prod]
+```
 
-* [Shopify money shop currency formats ](money-format-currency.md)
+## Usage
 
-* [PostCSS plugin for setting variables in Shopify CSS file](postcss-shopify-settings-variables.md)
+```sh
+$ gulp build [--prod]
+```
 
-* [Data Tools Express Capture instructions](data-tools-express-capture.md)
+```sh
+$ gulp deploy
+```
+
+#### Settings
+In your `_config.yml` and `humans.txt` you should add your Github and Twitter
+profile if you want to.
+
+## Install
+If you have cloned this repo or want to reinstall, make sure there&#39;s no
+`node_modules` or `Gemfile.lock` folder/file and then run `npm install` and
+`bundle install`.
+
+#### Update
+To update: `npm update generator-jekyllized -g`, then run `yo jekyllized:gulp
+[--rsync|amazon|pages]` in this directory. Note that this will overwrite any
+local changes, so back it up.
+
+## Github
+For more information on how to use your new project, please refer to the [README
+on Github](https://github.com/sondr3/generator-jekyllized).
+
+## Owner
+
+> [Peter](http://the-working-party.github.io/shopify-cookbook)

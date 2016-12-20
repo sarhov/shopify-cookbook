@@ -1,0 +1,12 @@
+node_modules
+.tmp
+*.DS_Store
+src
+gulp
+_config.build.yml
+_config.yml
+Gemfile
+Gemfile.lock
+gulpfile.js
+package.json
+README.md
