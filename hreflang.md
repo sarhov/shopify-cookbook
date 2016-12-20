@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Hreflang
-author: unknown
 excerpt: bi-directional links that reference each other and themselves in a network - x-default being the fallback for all regions outside what is specified.
-order: 1
 ---
 {% raw %}
 

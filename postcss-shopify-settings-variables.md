@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Postcss shopify settings variables
-author: unknown
 excerpt: PostCSS plugin for variable of theme setting in shopify css file.
-order: 1
 ---
 {% raw %}
 

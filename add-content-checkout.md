@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Add content to checkout
-author: Peter
 excerpt: ...
-order: 1
+
 ---
 
 {% raw %}

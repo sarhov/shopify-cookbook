@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Page split
-author: unknown
 excerpt: Using liquid, we can use a token inside a block of text to mark sections in that content, and therefore turn one block into multiple.
-order: 1
 ---
 {% raw %}
 

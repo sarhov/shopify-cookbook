@@ -1,9 +1,7 @@
 ---
 layout: post
 title: fb open graph
-author: unknown
 excerpt: Add to the `<head>` as an include to populate Open Graph tags
-order: 1
 ---
 {% raw %}
 

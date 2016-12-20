@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Advance liquid array loops
-author: unknown
-excerpt: 
-order: 1
+excerpt: ...
 ---
 {% raw %}
 

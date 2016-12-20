@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Working with multiple contributors
-author: unknown
 excerpt: ...
-order: 1
 ---
 {% raw %}
 

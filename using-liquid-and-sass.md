@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Using liquid and sass
-author: unknown
 excerpt: ...
-order: 1
 ---
 
 {% raw %}

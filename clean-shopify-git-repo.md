@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Clean shopify git repo
-author: unknown
 excerpt: When you run themedownload, sometimes you might notice some “orphan files” being pulled down from your Shopify theme
-order: 1
 ---
 {% raw %}
 

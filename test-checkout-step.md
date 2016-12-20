@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Test checkout step
-author: unknown
 excerpt: Note that if you’re doing something on the shipping methods step, you need to not only check for `Shopify.Checkout.step === 'shipping_method'`
-order: 1
 ---
 {% raw %}
 

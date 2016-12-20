@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Themekit config
-author: unknown
 excerpt: ThemeKit enables you to connect to your Shopify Theme to upload changes made in your code editor.
-order: 1
 ---
 {% raw %}
 

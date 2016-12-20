@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Maxmind redirects
-author: unknown
 excerpt: "Using the below js format (simplified from maxminds sample here: http://dev.maxmind.com/geoip/geoip2/javascript/tutorial/) to look for the region codes and then redirect to a specific url separately"
-order: 1
 ---
 {% raw %}
 

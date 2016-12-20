@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Validate fields checkout
-author: unknown
 excerpt: ...
-order: 1
 ---
 {% raw %}
 

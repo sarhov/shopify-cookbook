@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Data tools express capture
-author: unknown
 excerpt: The setup instructions on the Data Tools website help you get set up to a point, but there are some considerations for the Shopify Checkout. Please note it is only possible to install Express Capture on a Shopify Plus store.
-order: 1
 ---
 {% raw %}
 

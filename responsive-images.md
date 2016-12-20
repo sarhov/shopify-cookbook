@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Responsive images
-author: unknown
 excerpt: Using the new [image size a parameters](https://help.shopify.com/themes/liquid/filters/url-filters#size-parameters) we can easily serve up responsive images
-order: 1
 ---
 {% raw %}
 

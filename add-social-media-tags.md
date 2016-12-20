@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Add social media tags
-author: unknown
 excerpt: Use this code to create dynamic liquid-created social media tags for products, articles, pages and more. Supports Facebook's Open Graph, Twitter Cards, Pinterest's Pins
-order: 1
 ---
 {% raw %}
 
