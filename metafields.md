@@ -79,3 +79,7 @@ Change the variable after the last **dot** or **"."** to your **3rd Line**.
 
 ## Links:
 https://freakdesign-us.s3.amazonaws.com/shopify/custom_fields/freakdesign-custom-fields-for-shopify-guide.pdf
+
+http://freakdesign-us.s3.amazonaws.com/shopify/shopifyFD/freakdesign-shopifyfd-for-shopify-guide.pdf
+
+http://freakdesign.com.au/pages/shopify-custom-fields
