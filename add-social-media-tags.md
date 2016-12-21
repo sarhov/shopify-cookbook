@@ -1,11 +1,3 @@
----
-layout: post
-title: Add social media tags
-excerpt: Use this code to create dynamic liquid-created social media tags for products, articles, pages and more. Supports Facebook's Open Graph, Twitter Cards, Pinterest's Pins
----
-{% raw %}
-
-
 Create Liquid Social Media Tags
 Use this code to create dynamic liquid-created social media tags for products, articles, pages and more. Supports Facebook's Open Graph, Twitter Cards, Pinterest's Pins
 
@@ -126,6 +118,3 @@ Twitter user name of the site, based on theme settings
 {%- endif -%}
 {%- endif -%}
 ```
-
-
-{% endraw %}

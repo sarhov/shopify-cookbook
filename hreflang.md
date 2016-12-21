@@ -1,9 +1,4 @@
----
-layout: post
-title: Hreflang
-excerpt: bi-directional links that reference each other and themselves in a network - x-default being the fallback for all regions outside what is specified.
----
-{% raw %}
+
 
 # hreflang attribute and http lang
 handling multi-language websites
@@ -60,6 +55,3 @@ Capture from settings and place on html tag - to make the hrefland syntax for ea
 
 <html lang="{{ lange }}"> 
 ```
-
-
-{% endraw %}

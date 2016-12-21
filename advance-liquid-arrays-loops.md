@@ -1,11 +1,3 @@
----
-layout: post
-title: Advance liquid array loops
-excerpt: ...
----
-{% raw %}
-
-
 # Advance Liquid Arrays
 
 https://code.graygilmore.com/2014/advanced-arrays-in-shopify-s-liquid
@@ -62,6 +54,3 @@ Notes: Using the capture method for variables need to be escaped with square bra
 
 {{ productTagsSplit }}
 ```
-
-
-{% endraw %}
