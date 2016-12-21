@@ -1,10 +1,3 @@
----
-layout: post
-title: Money format currency
-excerpt: .We had a UK Store where the currency was set to show as £, but in some cases where values were affected by javascript logic, the default '$' symbol showed.
----
-{% raw %}
-
 #Shopify money formats
 
 ##Currency values in JS vs Liquid
@@ -22,7 +15,3 @@ It required a value to specificy the shop's money format:
 And in another instance for variants:
 
 `var cartTotal = Shopify.formatMoney(data.total_price, "{{shop.money_format}}");`
-
-
-
-{% endraw %}

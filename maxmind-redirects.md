@@ -1,9 +1,4 @@
----
-layout: post
-title: Maxmind redirects
-excerpt: "Using the below js format (simplified from maxminds sample here: http://dev.maxmind.com/geoip/geoip2/javascript/tutorial/) to look for the region codes and then redirect to a specific url separately"
----
-{% raw %}
+
 
 # Redirect Users to a Country-Specific Site using Maxmind
 
@@ -59,8 +54,4 @@ http://dev.maxmind.com/geoip/geoip2/javascript/tutorial/
 
 ##### EU country codes:
 http://dev.maxmind.com/geoip/legacy/codes/eu_country_list/
-
-
-
-{% endraw %}
 

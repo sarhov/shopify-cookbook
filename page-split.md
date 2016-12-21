@@ -1,10 +1,3 @@
----
-layout: post
-title: Page split
-excerpt: Using liquid, we can use a token inside a block of text to mark sections in that content, and therefore turn one block into multiple.
----
-{% raw %}
-
 # Split a block of content
 
 Using liquid, we can use a token inside a block of text to mark sections in that content, and therefore turn one block into multiple.
@@ -18,6 +11,3 @@ Using liquid, we can use a token inside a block of text to mark sections in that
     <div>{{ page.content }}</div>
 {%- endif -%}
 ```
-
-
-{% endraw %}

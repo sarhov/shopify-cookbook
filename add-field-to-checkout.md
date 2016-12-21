@@ -1,10 +1,5 @@
----
-layout: post
-title: Add field to checkout
-excerpt: Using some simple JavaScript we can inject a field into the Shopify checkout (Plus customers only)
+# Add a field to the checkout via JavaScript
 
----
-{% raw %}
 Using some simple JavaScript we can inject a field into the Shopify checkout (Plus customers only)
 
 ```js
@@ -13,5 +8,3 @@ var insertAttr = function( attr ) {
    $('.main form').append();
 }
 ```
-
-{% endraw %}

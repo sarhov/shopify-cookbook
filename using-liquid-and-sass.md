@@ -1,10 +1,4 @@
----
-layout: post
-title: Using liquid and sass
-excerpt: ...
----
 
-{% raw %}
 
 _Taken from [https://medium.com/@josephbergdoll/writing-sass-for-shopify-22c7568dd8f2](https://medium.com/@josephbergdoll/writing-sass-for-shopify-22c7568dd8f2)_
 
@@ -31,7 +25,3 @@ _Taken from [https://medium.com/@josephbergdoll/writing-sass-for-shopify-22c7568
 `font-size:#{' {% if settings.main-title-uppercase %} '}calc(16px * 0.875) !important#{' {% endif %} '};`
 
 `color:#{' {{ settings.light-text-colour }} '};`
-
-
-
-{% endraw %}
