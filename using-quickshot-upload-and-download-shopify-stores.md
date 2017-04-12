@@ -17,7 +17,7 @@ npm install -g quickshot
 ```
 ## 2. Configuration
 
-####Step 1. Create Config File
+#### Step 1. Create Config File
 
 To setup the configuration json file, go to a new empty project directory.
 
@@ -44,7 +44,7 @@ Then follow the configuration wizard prompts. The wizard will look like this:
   Use the arrow keys and enter keys.
 
   ---
-####Step 2. Setup Site Targets
+#### Step 2. Setup Site Targets
 
 Select **Configure Targets**.
 
@@ -65,58 +65,58 @@ Success! Target Created!
 To complete the wizard go to **Done managing targets**.
 
 
-##3. Download Store Data
+## 3. Download Store Data
 
 For each of the following, you will be asked which target you want to download from.
 
-####Blogs
+#### Blogs
 
 ```
 qs blogs download
 ```
 
 
-####Pages
+#### Pages
 
 ```
 qs pages download
 ```
 
-####Products
+#### Products
 
 ```
 qs products download
 ```
 
-####Theme
+#### Theme
 
 ```
 qs theme download
 ```
 
-##4. Upload Store Data
+## 4. Upload Store Data
 For each of the following, you will be asked which target you want to upload to.
 
-####Blogs
+#### Blogs
 
 ```
 qs blogs upload
 ```
 
 
-####Pages
+#### Pages
 
 ```
 qs pages upload
 ```
 
-####Products
+#### Products
 
 ```
 qs products upload
 ```
 
-####Theme
+#### Theme
 
 ```
 qs theme upload
