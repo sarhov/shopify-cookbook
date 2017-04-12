@@ -1,4 +1,4 @@
-#QuickShot - Download + Upload - Blogs, Pages, Products, Themes, Metafields Data and more!
+# QuickShot - Download + Upload - Blogs, Pages, Products, Themes, Metafields Data and more!
 #### A Shopify theme development tool. Quickshot is super fast and feature rich. Everything you need to design and develop sites on Shopify.
 * Supports uploading to multiple Shopify stores and themes
 * Easy to use configuration wizard
